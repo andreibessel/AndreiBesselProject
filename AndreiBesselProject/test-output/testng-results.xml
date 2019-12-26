@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41054" started-at="2019-12-26T12:14:37 IST" finished-at="2019-12-26T12:15:18 IST">
+    <groups>
+      <group name="TestsOnly">
+        <method signature="CheckboxesTest.test()[pri:0, instance:Tests.CheckboxesTest@59906517]" name="test" class="Tests.CheckboxesTest"/>
+      </group> <!-- TestsOnly -->
+    </groups>
+    <test name="Default test" duration-ms="41054" started-at="2019-12-26T12:14:37 IST" finished-at="2019-12-26T12:15:18 IST">
+      <class name="Tests.CheckboxesTest">
+        <test-method status="PASS" signature="driver()[pri:0, instance:Tests.CheckboxesTest@59906517]" name="driver" is-config="true" duration-ms="31911" started-at="2019-12-26T12:14:37 IST" finished-at="2019-12-26T12:15:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driver -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Tests.CheckboxesTest@59906517]" name="test" duration-ms="2880" started-at="2019-12-26T12:15:09 IST" finished-at="2019-12-26T12:15:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="driverEnd()[pri:0, instance:Tests.CheckboxesTest@59906517]" name="driverEnd" is-config="true" duration-ms="6223" started-at="2019-12-26T12:15:12 IST" finished-at="2019-12-26T12:15:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverEnd -->
+      </class> <!-- Tests.CheckboxesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
