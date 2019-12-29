@@ -1,25 +1,17 @@
 package Tests;
+
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-import Pages.AddRemovoPage;
 import Pages.ChalengingDomPage;
 import Pages.LandinPage;
-
 import driver.base;
 
 public class ChallengingDomTest extends base {
-
 	LandinPage objLandingPage;
 	ChalengingDomPage objChalengingDomPage;
-
-	public ChallengingDomTest() {
-		// TODO Auto-generated constructor stub
-	}
 
 	@BeforeTest
 	public void driver() throws IOException {
@@ -31,7 +23,7 @@ public class ChallengingDomTest extends base {
 
 	}
 
-	@Test(priority = 0,groups = { "TestsOnly"})
+	@Test(priority = 0, groups = { "TestsOnly" })
 	public void test() {
 		// click on first button
 		objLandingPage = new LandinPage(driver);

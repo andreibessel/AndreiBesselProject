@@ -13,23 +13,16 @@ public class verifyimageActive {
 
 	WebElement imgElement;
 	static int invalidImagecount;
+
 	public static int verifyimageActivem(WebElement imgElement) throws ClientProtocolException, IOException {
-		
-		HttpClient client=HttpClientBuilder.create().build();
-		HttpGet request=new HttpGet(imgElement.getAttribute("src"));
-		HttpResponse response=client.execute(request);
-		
-		if(response.getStatusLine().getStatusCode()!=200) {
+		HttpClient client = HttpClientBuilder.create().build();
+		HttpGet request = new HttpGet(imgElement.getAttribute("src"));
+		HttpResponse response = client.execute(request);
+		if (response.getStatusLine().getStatusCode() != 200) {
 			invalidImagecount++;
 		}
-		
 		return invalidImagecount;
-		
+
 	}
-	
-	
-	
-	
-	
-	
+
 }
