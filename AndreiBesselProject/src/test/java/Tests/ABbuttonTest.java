@@ -14,7 +14,7 @@ public class ABbuttonTest extends base {
 	@BeforeTest(groups = { "TestsOnly" })
 	public void driver() throws IOException {
 		base base = new base();
-		base.initializeDriver();
+		driver=base.initializeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("http://the-internet.herokuapp.com");
 		driver.manage().window().fullscreen();

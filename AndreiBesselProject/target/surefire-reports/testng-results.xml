@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41115" started-at="2020-01-22T12:22:43 IST" finished-at="2020-01-22T12:23:24 IST">
+    <groups>
+      <group name="TestsOnly">
+        <method signature="ABbuttonTest.test()[pri:0, instance:Tests.ABbuttonTest@192b07fd]" name="test" class="Tests.ABbuttonTest"/>
+        <method signature="AddRemoverTest.test()[pri:0, instance:Tests.AddRemoverTest@55d56113]" name="test" class="Tests.AddRemoverTest"/>
+        <method signature="BrokenImagesTest.test()[pri:0, instance:Tests.BrokenImagesTest@64bf3bbf]" name="test" class="Tests.BrokenImagesTest"/>
+        <method signature="ChallengingDomTest.test()[pri:0, instance:Tests.ChallengingDomTest@64bfbc86]" name="test" class="Tests.ChallengingDomTest"/>
+        <method signature="CheckboxesTest.test()[pri:0, instance:Tests.CheckboxesTest@148080bb]" name="test" class="Tests.CheckboxesTest"/>
+      </group> <!-- TestsOnly -->
+    </groups>
+    <test name="Test1" duration-ms="41115" started-at="2020-01-22T12:22:43 IST" finished-at="2020-01-22T12:23:24 IST">
+      <class name="Tests.ABbuttonTest">
+        <test-method status="PASS" signature="driver()[pri:0, instance:Tests.ABbuttonTest@192b07fd]" name="driver" is-config="true" duration-ms="5173" started-at="2020-01-22T12:22:43 IST" finished-at="2020-01-22T12:22:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driver -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Tests.ABbuttonTest@192b07fd]" name="test" duration-ms="429" started-at="2020-01-22T12:22:50 IST" finished-at="2020-01-22T12:22:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="driverEnd()[pri:0, instance:Tests.ABbuttonTest@192b07fd]" name="driverEnd" is-config="true" duration-ms="123" started-at="2020-01-22T12:23:24 IST" finished-at="2020-01-22T12:23:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverEnd -->
+      </class> <!-- Tests.ABbuttonTest -->
+      <class name="Tests.ChallengingDomTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:Tests.ChallengingDomTest@64bfbc86]" name="test" duration-ms="2426" started-at="2020-01-22T12:22:48 IST" finished-at="2020-01-22T12:22:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- Tests.ChallengingDomTest -->
+      <class name="Tests.BrokenImagesTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:Tests.BrokenImagesTest@64bf3bbf]" name="test" duration-ms="2284" started-at="2020-01-22T12:22:51 IST" finished-at="2020-01-22T12:22:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- Tests.BrokenImagesTest -->
+      <class name="Tests.AddRemoverTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:Tests.AddRemoverTest@55d56113]" name="test" duration-ms="28150" started-at="2020-01-22T12:22:53 IST" finished-at="2020-01-22T12:23:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- Tests.AddRemoverTest -->
+      <class name="Tests.CheckboxesTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:Tests.CheckboxesTest@148080bb]" name="test" duration-ms="2496" started-at="2020-01-22T12:23:21 IST" finished-at="2020-01-22T12:23:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- Tests.CheckboxesTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

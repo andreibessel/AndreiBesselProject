@@ -19,7 +19,7 @@ public class CheckboxesTest extends base {
 	@BeforeTest
 	public void driver() throws IOException {
 		base base = new base();
-		base.initializeDriver();
+		driver=base.initializeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("http://the-internet.herokuapp.com");
 		driver.manage().window().fullscreen();

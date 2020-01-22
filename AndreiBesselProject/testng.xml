@@ -13,15 +13,7 @@
       <class name="Tests.BrokenImagesTest"/>
       <class name="Tests.AddRemoverTest"/>
       <class name="Tests.CheckboxesTest"/>
-       <class name="Tests.BasicAuthMySqlTest"/>
     </classes>
     
   </test> <!-- Test -->
-     <test thread-count="5" name="SpecialTest">
-      <classes>
-     
-       <class name="Tests.BasicAuthMySqlTest"/>
-    </classes>
-     
-      </test>
 </suite> <!-- Suite -->
